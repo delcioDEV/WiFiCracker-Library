@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(115200);
   WiFi.mode(WIFI_STA);
   
-cracker.crack("PowerSolution", "p@wers0lution2020"); 
+cracker.crack("target-wifi", ""); //Password/leave it empty
 
   while (!WiFi.isConnected()) {
     delay(500);
